@@ -13,6 +13,9 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/davla/scoped-name-resolver',
     packages=setuptools.find_packages(),
+    install_requires=[
+        'networkx'
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         "License :: OSI Approved :: MIT License",
